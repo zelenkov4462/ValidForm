@@ -9,5 +9,5 @@ React.
 
 ![4,1](https://user-images.githubusercontent.com/101303690/186929527-2f3d4db2-26ba-4b08-bbe6-8fbc1c96dc24.png)
 ![4,2](https://user-images.githubusercontent.com/101303690/186929533-cae16f3d-97ea-4f59-a9db-8cdf4c20fa36.png)
-![4 3](https://user-images.githubusercontent.com/101303690/186929536-f7bf781c-721f-46ce-9a2b-22c646ab97ff.png)
+![4 2](https://user-images.githubusercontent.com/101303690/186929781-52e1b448-fe70-45a5-8c41-0961024f251f.png)
 

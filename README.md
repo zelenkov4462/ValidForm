@@ -1,4 +1,5 @@
-Реализация создания валидации для формы.
+React.
+Реализация создания формы и ее валидация без сторонних библиотек.
 
 1 вариант - закоментирован - без использования кастомных хуков
 
@@ -6,30 +7,7 @@
 
 Так же создан объект validations - для передачи нужных свойств для инпута - перебор объект и конструкция switch/case
 
-useEffect(() => {
-    for (const validation in validations) {
-      switch (validation) {
-        case "minLength":
-          value.length < validations[validation]
-            ? setMinLengthError(true)
-            : setMinLengthError(false);
-          break;
-        case "isEmpty":
-          value ? setEmpty(false) : setEmpty(true);
-          break;
-        case "isEmail":
-          const re =
-            /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-          re.test(String(value).toLowerCase())
-            ? setEmailError(false)
-            : setEmailError(true);
-          break;
-        case "maxLength":
-          value.length > validations[validation]
-            ? setMaxLengthError(true)
-            : setMaxLengthError(false);
-          break;
-      }
-    }
-  }, [value]);
- 
+
+![4,1](https://user-images.githubusercontent.com/101303690/186929004-3193fdb5-c283-46df-8727-1dfcc483e538.png)
+![4,2](https://user-images.githubusercontent.com/101303690/186929007-237d35d2-c550-4df8-9d4d-572c9aa5795c.png)
+![4 2](https://user-images.githubusercontent.com/101303690/186929010-d5ab07d6-6e0c-444a-8d8f-743f2755b96f.png)
